@@ -1,0 +1,14 @@
+{
+  "name": "initial-jekyll",
+  "version": "1.0.0",
+  "description": "Initial Repo for any New Jekyll Project with Browser-Sync",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "lodash": "^4.17.4"
+  }
+}
