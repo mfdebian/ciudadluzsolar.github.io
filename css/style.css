@@ -17581,7 +17581,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner {
   width: 100%;
   height: 100%;
   margin: 0;
-  background: url(//www.ciudadluz.cl/wp-content/themes/ciudadluz/images/pattern2.png) repeat
+  background: url(/img/pattern2.png) repeat
 }
 
 .swiper_wrapper .swiper-slide {
