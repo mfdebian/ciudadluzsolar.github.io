@@ -4,6 +4,17 @@ div.wpcf7 {
   padding: 0
 }
 
+.form-submit {
+  border: 1px solid #ec1c23;
+  color: #ff1d25;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 34px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 16px;
+}
+
 div.wpcf7-response-output {
   margin: 2em .5em 1em;
   padding: .2em 1em
