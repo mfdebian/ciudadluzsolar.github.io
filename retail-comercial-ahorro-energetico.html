@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Retail/Comercial - Ciudad Luz
+title: Retail/Comercial
 permalink: /retail-comercial-ahorro-energetico/
 excerpt: Ciudad Luz permite a tu empresa en el sector retail/comercial generar ahorros energeticos optando por la energia solar como fuente de electricidad.
 ---
@@ -20,9 +20,19 @@ excerpt: Ciudad Luz permite a tu empresa en el sector retail/comercial generar a
                 <li><a href="/comunidades-aisladas/">Comunidades Aisladas</a></li>
               </ul>
               <div id="oc-images" class="owl-carousel image-carousel carousel-widget" data-loop="false" data-margin="26" data-nav="true" data-pagi="false" data-items-xxs="1" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="3">
-                <div class="noproyecto">
-                  <h2>Aún no hemos concretado proyectos en este segmento. Si perteneces a una empresa retail o comercial <span>te invitamos a ser parte de la generación solar.</span><br/>Escríbenos a : <a href="mailto:contacto@ciudadluz.cl">contacto@ciudadluz.cl</a></h2>
-                </div>
+                {% if site.projects_retail != empty %}
+                  {% for item in site.projects_retail %}
+                    <div class="oc-item">
+                      <a href="{{ item.url }}"> <img src="{{ item.img_path | relative_url }}" /> </a>
+                      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+                    </div>
+                  {% endfor %}
+
+                {% else %}
+                  <div class="noproyecto">
+                    <h2>Aún no hemos concretado proyectos en este segmento. Si perteneces a una empresa retail o comercial <span>te invitamos a ser parte de la generación solar.</span><br>Escríbenos a : <a href="mailto:contacto@ciudadluz.cl">contacto@ciudadluz.cl</a></h2>
+                  </div>
+                {% endif %}
               </div>
               <div class="mostrarproyecto"></div>
             </div>

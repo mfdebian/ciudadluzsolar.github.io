@@ -24,6 +24,31 @@ lang: es
 
 google_analytics: UA-NNNNNNNN-N
 
+collections:
+  news:
+    output: true
+    permalink: /:collection/:name
+  projects_residential:
+    output: true
+    permalink: /:collection/:name
+  projects_agroindustrial:
+    output: true
+    permalink: /:collection/:name
+  projects_hoteleria:
+    output: true
+    permalink: /:collection/:name
+  projects_educacional:
+    output: true
+    permalink: /:collection/:name
+  projects_retail:
+    output: true
+    permalink: /:collection/:name
+  projects_industrial:
+    output: true
+    permalink: /:collection/:name
+  projects_offgrid:
+    output: true
+    permalink: /:collection/:name
 
 # Build settings
 markdown: kramdown

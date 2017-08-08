@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Educacional - Colegios Solares - Ciudad Luz
+title: Educacional - Colegios Solares
 permalink: /educacional-colegio-solar/
 excerpt: Ciudad Luz desea llevar la energia solar como fuente alternativa de generacion de electricidad a todos los colegios de Chile.
 ---
@@ -20,10 +20,21 @@ excerpt: Ciudad Luz desea llevar la energia solar como fuente alternativa de gen
                 <li><a href="/comunidades-aisladas/">Comunidades Aisladas</a></li>
               </ul>
               <div id="oc-images" class="owl-carousel image-carousel carousel-widget" data-loop="false" data-pagi="true" data-margin="26" data-nav="true" data-pagi="false" data-items-xxs="1" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="3">
-                <div class="oc-item">
-                  <a href="/educacional/paneles-solares-colegios-chile/"> <img src="{{"/img/jardin-infantil-1.jpg" | relative_url }}" /> </a>
-                  <h3><a href="/educacional/paneles-solares-colegios-chile/">JARDÍN GRANITO DE ARENA</a></h3>
-                </div>
+                {% if site.projects_educacional != empty %}
+                  {% for item in site.projects_educacional %}
+                    <div class="oc-item">
+                      <a href="{{ item.url }}"> <img src="{{ item.img_path | relative_url }}" /> </a>
+                      <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+                    </div>
+                  {% endfor %}
+
+                {% else %}
+                <!-- Write your message here  -->
+
+                  <div class="noproyecto">
+                    <h2>Aún no hemos concretado proyectos en este segmento. Si perteneces a una empresa de hotelería <span>te invitamos a ser parte de la generación solar.</span><br/>Escríbenos a : <a href="mailto:contacto@ciudadluz.cl">contacto@ciudadluz.cl</a></h2>
+                  </div>
+                {% endif %}
               </div>
               <div class="mostrarproyecto"></div>
             </div>
