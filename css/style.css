@@ -4,6 +4,13 @@ div.wpcf7 {
   padding: 0
 }
 
+.collection-content h1 {
+  font-size: 20px;
+  margin-bottom: 44px;
+  background: #ff0;
+  padding: 16px;
+}
+
 .form-submit {
   border: 1px solid #ec1c23;
   color: #ff1d25;

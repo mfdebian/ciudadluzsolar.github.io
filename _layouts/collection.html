@@ -23,13 +23,13 @@
             <li><a href="/comunidades-aisladas/">Comunidades Aisladas</a></li>
           </ul>
           <div class="clearfix"></div>
-          <div class="col_one_third nobottommargin">
+          <div class="col_one_third nobottommargin collection-content">
             {{ page.content | markdownify }}
             <div style="margin-top:20px">
               <style>#indeed_sm_wrap_694{}#indeed_sm_wrap_694 .ism_item{}#indeed_sm_wrap_694 .ism_item .fa-ism, #indeed_sm_wrap_694 .ism_item .ism-sc-icon{float:none;}#indeed_sm_wrap_694 .ism_item_wrapper{display: inline-block;}</style>
               <div class="ism_wrap ism_template_5  ism-shortcode-display" id="indeed_sm_wrap_694" style="" >
-                <div id="fb_desc-1474" data-ism_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ..." style="display: none;"></div>
-                <a href="javascript:void(0)" class="ism_link" onClick="shareFacebookWI('http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/','CARMEN%20ALTO', '0', '0', '#fb_desc-1474', '1');ism_fake_increment('.facebook_share_count', 'facebook', 'http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/');">
+                <div id="fb_desc-1474" data-ism_description="{{ page.excerpt }}" style="display: none;"></div>
+                <a href="javascript:void(0)" class="ism_link" onClick="shareFacebookWI('{{ site.url }}{{ page.url }}','{{ page.title }}', '0', '0', '#fb_desc-1474', '1');ism_fake_increment('.facebook_share_count', 'facebook', '{{ page.url }}');">
                   <div class="ism_item_wrapper ism-align-horizontal">
                     <div class="ism_item ism_box_facebook">
                       <i class="fa-ism fa-facebook-ism"></i>
@@ -37,7 +37,7 @@
                     </div>
                   </div>
                 </a>
-                <a href="javascript:void(0)" class="ism_link" onClick="ism_fake_increment('.twitter_share_count', 'twitter', 'http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/');return !window.open('https://twitter.com/intent/tweet?text=CARMEN%20ALTO http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/', '', 'width=700,height=313');">
+                <a href="javascript:void(0)" class="ism_link" onClick="ism_fake_increment('.twitter_share_count', 'twitter', '{{ site.url }}{{ page.url }}');return !window.open('https://twitter.com/intent/tweet?text= {{ page.title }} {{ site.url }}{{ page.url }}', '', 'width=700,height=313');">
                   <div class="ism_item_wrapper ism-align-horizontal">
                     <div class="ism_item ism_box_twitter">
                       <i class="fa-ism fa-twitter-ism"></i>
@@ -45,7 +45,7 @@
                     </div>
                   </div>
                 </a>
-                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/&title=CARMEN%20ALTO&summary=Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat ..." class="ism_link" onClick="ism_fake_increment('.linkedin_share_count', 'linkedin', 'http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/');return !window.open(this.href, '', 'width=700,height=450');">
+                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ site.url }}{{ page.url }}&title={{page.title}}&summary={{page.excerpt}}" class="ism_link" onClick="ism_fake_increment('.linkedin_share_count', 'linkedin', '{{ site.url }}{{ page.url }}');return !window.open(this.href, '', 'width=700,height=450');">
                   <div class="ism_item_wrapper ism-align-horizontal">
                     <div class="ism_item ism_box_linkedin">
                       <i class="fa-ism fa-linkedin-ism"></i>
@@ -53,7 +53,7 @@
                     </div>
                   </div>
                 </a>
-                <a href="whatsapp://send?text=CARMEN%20ALTO - http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/" class="ism_link" onClick="ism_fake_increment('.whatsapp_share_count', 'whatsapp', 'http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/');return !window.open(this.href, '', 'width=700,height=313');">
+                <a href="whatsapp://send?text=CARMEN%20ALTO - {{ site.url }}{{ page.url }}" class="ism_link" onClick="ism_fake_increment('.whatsapp_share_count', 'whatsapp', '{{ site.url }}{{ page.url }}');return !window.open(this.href, '', 'width=700,height=313');">
                   <div class="ism_item_wrapper ism-align-horizontal">
                     <div class="ism_item ism_box_whatsapp">
                       <i class="fa-ism fa-whatsapp-ism"></i>
@@ -61,7 +61,7 @@
                     </div>
                   </div>
                 </a>
-                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&su=CARMEN%20ALTO&body=http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/" class="ism_link" onClick="ism_fake_increment('.gmail_share_count', 'gmail', 'http://www.ciudadluz.cl/agroindustrial/carmen-alto-agricola/');return !window.open(this.href, '', 'width=700,height=313');">
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&su={{page.title}}&body={{ site.url }}{{ page.url }}" class="ism_link" onClick="ism_fake_increment('.gmail_share_count', 'gmail', '{{ site.url }}{{ page.url }}');return !window.open(this.href, '', 'width=700,height=313');">
                   <div class="ism_item_wrapper ism-align-horizontal">
                     <div class="ism_item ism_box_gmail">
                       <i class="fa-ism fa-gmail-ism"></i>
@@ -72,7 +72,7 @@
               </div>
             </div>
           </div>
-          <div class="col_two_third col_last nobottommargin"> <img src="{{"/img/carmen-alto-agricola.jpg" | relative_url }}" /></div>
+          <div class="col_two_third col_last nobottommargin"> <img src="{{ page.img_path | relative_url }}" /></div>
         </div>
       </div>
     </div>
