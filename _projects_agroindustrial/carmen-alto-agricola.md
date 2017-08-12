@@ -6,6 +6,7 @@ img_path: /img/carmen-alto-agricola.jpg
 excerpt: Este proyecto fue desarrollado en la comuna de Melipilla, Chile, en el año 2015, para la empresa agrícola, productora de nueces, Carmen Alto.
 ---
 
+
 # CARMEN ALTO
 Este proyecto fue desarrollado en la comuna
 

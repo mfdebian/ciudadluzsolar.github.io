@@ -15,4 +15,3 @@ Este proyecto fue desarrollado para la caleta de Pescadores de Pan de Azúcar, e
 **Inversión total**: USD$ 50.000
 
 **Potencia total**: 3 kW
-                
