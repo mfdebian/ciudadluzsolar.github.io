@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+<body id="interna" class="stretched" data-loader="4" data-loader-timeout="4000">
+  <div id="wrapper" class="clearfix">
+  {% include header.html %}
+
+  <div class="clearfix"></div>
+  <section id="content" class="noticias-interna">
+    <div class="content-wrap">
+      <div class="container clearfix">
+        <div class="row clearfix">
+          <div class="col_half nobottommargin"> <img src="{{ page.img_path | relative_url }}" /></div>
+          <div class="col_half col_last nobottommargin news-content">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  {% include footer.html %}
+  </div>
+
+
+</body>
+</html>
