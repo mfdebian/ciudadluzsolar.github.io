@@ -28,25 +28,13 @@ collections:
   news:
     output: true
     permalink: /:collection/:name
-  projects_residential:
+  projects_residencial:
     output: true
     permalink: /:collection/:name
-  projects_agroindustrial:
+  projects_empresarial:
     output: true
     permalink: /:collection/:name
-  projects_hoteleria:
-    output: true
-    permalink: /:collection/:name
-  projects_educacional:
-    output: true
-    permalink: /:collection/:name
-  projects_retail:
-    output: true
-    permalink: /:collection/:name
-  projects_industrial:
-    output: true
-    permalink: /:collection/:name
-  projects_offgrid:
+  projects_institucional:
     output: true
     permalink: /:collection/:name
 

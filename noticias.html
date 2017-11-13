@@ -9,19 +9,19 @@ permalink: /noticias/
       <section id="content" class="proyectos">
         <div class="content-wrap noticias">
           <div class="container clearfix">
-            <div class="row clearfix">
-
-              {% assign news_items = site.news | sort: 'date' | reverse %}
-              {% for news in news_items %}
-                <div class="col-md-4 bottommargin">
-                  <h2>{{ news.title }}</h2>
-                  <p>{{ news.date | date: "%B %Y" }}. {{ news.excerpt }}</p>
-                  <a href="{{ news.url }}" title="{{ news.title }}">Ir a la noticia</a>
-                </div>
-              {% endfor %}
-
-              <div class="col_full"></div>
+            {% assign news_items = site.news | sort: 'date' | reverse %}
+            {% for news in news_items %}
+            <div class="row clearfix" style="margin-bottom: 40px">
+              <div class="col-md-4">
+                  <img src="{{ news.img_path | relative_url }}" />              
+              </div>
+              <div class="col-md-8">
+                <h2><strong style="background: #ff0">{{news.title}}</strong></h2>
+                <p>{{ news.date_text }}</p>
+                <p>{{ news.content }}</p>
+              </div>
             </div>
+            {% endfor %}
           </div>
         </div>
       </section>

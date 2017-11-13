@@ -19577,6 +19577,10 @@ body:not(.no-transition) #wrapper,
   border-top: 1px solid #13bae1
 }
 
+.content-forcetopline {
+  border-top: 1px solid #13bae1
+}
+
 #interna h1 span {
   background: #ff0;
   padding: 10px 6px;
