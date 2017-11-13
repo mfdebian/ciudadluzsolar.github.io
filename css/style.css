@@ -19554,6 +19554,11 @@ body:not(.no-transition) #wrapper,
   font-weight: normal
 }
 
+#home h2 span,
+#home h2 strong {
+  background: #ff0;
+}
+
 #copyrights .container {
   border-top: 2px solid #bbe5ea;
   padding-top: 22px;
