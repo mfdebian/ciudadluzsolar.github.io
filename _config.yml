@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ciudad Luz - Bienvenido a la generación solar
-email: your-email@domain.com
+title: Ciudad Luz - Energía Solar Distribuida Para Chile y Sudamérica
+email: contacto@ciudadluz.cl
 description: Toma el control de tu energía con Ciudad Luz y sus servicios de energía solar para hogares, empresas y servicios públicos. LIVE. 00:00. 01:12. Like.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.ciudadluz.cl" # the base hostname & protocol for your site, e.g. http://example.com

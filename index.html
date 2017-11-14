@@ -40,7 +40,7 @@ layout: home
 
       <!-- Que ofrecemos: diseño -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/diseno.png" style="width: 100%">
         </div>
         <div class="col-md-9">
@@ -53,7 +53,7 @@ layout: home
 
       <!-- Que ofrecemos: ejecución -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/ejecucion.png" style="width: 80%">
         </div>
         <div class="col-md-9">
@@ -66,7 +66,7 @@ layout: home
 
       <!-- Que ofrecemos: mantención -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/mantencion.png" style="width: 90%">
         </div>
         <div class="col-md-9">
@@ -80,7 +80,7 @@ layout: home
 
       <!-- Que ofrecemos: financiamiento -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/financiamiento.png" style="width: 90%">
         </div>
         <div class="col-md-9">
@@ -105,7 +105,7 @@ layout: home
 
       <!-- Que nos diferencia: innovación -->
       <div class="row clearfix">
-        <div class="col-sm-3 col-md-push-8">
+        <div class="col-sm-3 col-md-push-8 text-center">
           <img src="/img/innovacion.png" style="width: 80%">
         </div>
         <div class="col-sm-8 col-md-pull-3 text-right">
@@ -118,7 +118,7 @@ layout: home
 
       <!-- Que nos diferencia: compromiso -->
       <div class="row clearfix">
-        <div class="col-sm-3 col-md-push-8">
+        <div class="col-sm-3 col-md-push-8 text-center">
           <img src="/img/compromiso.png" style="width: 80%">
         </div>
         <div class="col-sm-8 col-md-pull-3 text-right">
@@ -131,7 +131,7 @@ layout: home
 
       <!-- Que nos diferencia: experiencia -->
       <div class="row clearfix">
-        <div class="col-sm-3 col-md-push-8">
+        <div class="col-sm-3 col-md-push-8 text-center">
           <img src="/img/experiencia.png" style="width: 80%">
         </div>
         <div class="col-sm-8 col-md-pull-3 text-right">
@@ -156,7 +156,7 @@ layout: home
 
       <!-- Con quienes trabajamos: hogares -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/diseno.png" style="width: 100%">
         </div>
         <div class="col-md-9">
@@ -169,7 +169,7 @@ layout: home
 
       <!-- Con quienes trabajamos: empresas -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/ejecucion.png" style="width: 80%">
         </div>
         <div class="col-md-9">
@@ -182,7 +182,7 @@ layout: home
 
       <!-- Con quienes trabajamos: instituciones -->
       <div class="row clearfix">
-        <div class="col-md-offset-1 col-md-2 text-right">
+        <div class="col-md-offset-1 col-md-2 text-center">
           <img src="/img/ejecucion.png" style="width: 80%">
         </div>
         <div class="col-md-9">
@@ -193,14 +193,78 @@ layout: home
         </div>
       </div>
 
-
       <!-- Espaciador -->
       <div class="row clearfix" style="margin-bottom: 50px;"></div>
-
+      
+      <!-- Que nos diferencia -->
+      <div class="row clearfix text-right">
+        <h2>
+          <p><strong>¿Donde Estamos?</strong></p>
+        </h2>
+      </div>
 
       <div class="row clearfix">
-        <iframe src="https://player.vimeo.com/video/105803460?title=0&byline=0&portrait=0" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="col-md-12">
+          <div style="
+            width: 100%; 
+            height: 400px;
+            background: #fff;
+            padding: 15px;
+            box-shadow: 0 0 20px #999;
+            border-radius: 2px;">
+            <div id="map" style="width: 100%; height: 100%;"></div>
+          </div>
+        </div>
       </div>
+
+      <script language="javascript" type="text/javascript" defer='defer'>
+        window.onload = function () {
+          var map = new GMaps({
+            div: '#map',
+            lat: -36.391378,
+            lng: -71.769336, 
+            zoom: 5
+          });
+
+          {% for item in site.projects_residencial %}
+          {% if item.latitud != null %}
+          map.addMarker({
+            lat: {{item.latitud}},
+            lng: {{item.longitud}},
+            infoWindow: {
+              content:'<h3>{{ item.title }}</h3><p><strong>Ubicación:</strong> {{ item.ubicacion }}<br/><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
+            }
+          });
+          {% endif %}
+          {% endfor %}
+
+          {% for item in site.projects_institucional %}
+          {% if item.latitud != null %}
+          map.addMarker({
+            lat: {{item.latitud}},
+            lng: {{item.longitud}},
+            infoWindow: {
+              content:'<h3>{{ item.title }}</h3><p><strong>Ubicación:</strong> {{ item.ubicacion }}<br/><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
+            }
+          });
+          {% endif %}
+          {% endfor %}
+
+          {% for item in site.projects_empresarial %}
+          {% if item.latitud != null %}
+          map.addMarker({
+            lat: {{item.latitud}},
+            lng: {{item.longitud}},
+            infoWindow: {
+              content:'<h3>{{ item.title }}</h3><p><strong>Ubicación:</strong> {{ item.ubicacion }}<br/><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
+            }
+          });
+          {% endif %}
+          {% endfor %}
+        }
+      </script>
+
+    </div>
 
     </div>
   </div>

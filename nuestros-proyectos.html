@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Segmentos and proyectos 
-permalink: /segmentos-proyectos/
+title: Nuestros Sistemas de Energía Solar
+permalink: /nuestros-proyectos/
 excerpt: Para Ciudad Luz es importante desarrollar proyectos con diversos tipos de clientes, creando valor y soluciones según las necesidades de cada uno.
 ---
 
@@ -11,46 +11,65 @@ excerpt: Para Ciudad Luz es importante desarrollar proyectos con diversos tipos 
           <div class="container clearfix">
             <!-- Residenciales -->
             <div class="row clearfix">
-              <h2><strong style="background:  #ff0;">Residenciales</strong></h2>
+              <div class="col-md-12">
+                <h2><strong style="background:  #ff0;">Residenciales</strong></h2>
+              </div>
+            </div>
+            <div class="row clearfix">
               {% for item in site.projects_residencial %}
               <div class="col-md-4">
                 <img src="{{ item.img_path | relative_url }}" />
                 <h3>{{ item.title }}</h3>
-                <p>{{ item.excerpt }}</p>
+
                 <p>
-                  <strong>Inversión Total:</strong> {{ item.inversion_total }}<br/>
+                  <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+                  <strong>Mandante:</strong> {{ item.mandante }}<br/>
                   <strong>Potencia Total:</strong> {{ item.potencia_total }}
                 </p>
               </div>
               {% endfor %}
             </div>
 
+            <div class="row clearfix" style="margin-bottom: 30px"></div>
+
             <!-- Empresariales -->
             <div class="row clearfix">
-              <h2><strong style="background:  #ff0;">Empresariales</strong></h2>
+              <div class="col-md-12">
+                <h2><strong style="background:  #ff0;">Empresariales</strong></h2>
+              </div>
+            </div>
+            <div class="row clearfix">
               {% for item in site.projects_empresarial %}
               <div class="col-md-4">
                 <img src="{{ item.img_path | relative_url }}" />
                 <h3>{{ item.title }}</h3>
-                <p>{{ item.excerpt }}</p>
+
                 <p>
-                  <strong>Inversión Total:</strong> {{ item.inversion_total }}<br/>
+                  <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+                  <strong>Mandante:</strong> {{ item.mandante }}<br/>
                   <strong>Potencia Total:</strong> {{ item.potencia_total }}
                 </p>
               </div>
               {% endfor %}
             </div>
 
+            <div class="row clearfix" style="margin-bottom: 30px"></div>
+
             <!-- Institucionales -->
             <div class="row clearfix">
-              <h2><strong style="background:  #ff0;">Institucionales</strong></h2>
+              <div class="col-md-12">
+                <h2><strong style="background:  #ff0;">Institucionales</strong></h2>
+              </div>
+            </div>
+            <div class="row clearfix">
               {% for item in site.projects_institucional %}
               <div class="col-md-4">
                 <img src="{{ item.img_path | relative_url }}" />
                 <h3>{{ item.title }}</h3>
-                <p>{{ item.excerpt }}</p>
+
                 <p>
-                  <strong>Inversión Total:</strong> {{ item.inversion_total }}<br/>
+                  <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+                  <strong>Mandante:</strong> {{ item.mandante }}<br/>
                   <strong>Potencia Total:</strong> {{ item.potencia_total }}
                 </p>
               </div>

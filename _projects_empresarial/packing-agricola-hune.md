@@ -1,11 +1,15 @@
 ---
-layout: collection
-title: PACKING AGRÍCOLA HÜNE
-permalink: /agroindustrial/packing-agricola-hune/
+layout: proyecto
+title: HÜNE
+permalink: /proyectos/packing-agricola-hune/
 img_path: /img/hune-2-pw.jpg
+ubicacion: Los Ángeles, Biobío, Chile
+mandante: Agricola Hüne
 inversion_total: USD$ 40.000
 potencia_total: 15 kWp
-excerpt: Proyecto realizado en la comuna de Los Ángeles para el abastecimiento de parte de la energía de Agrícola Hüne, cuyos mayores...
+latitud: -37.481878
+longitud: -72.31866
+excerpt: Sistema solar para el abastecimiento del packing y otros consumos de la empresa agrícola.
 ---
 
-Proyecto realizado en la comuna de Los Ángeles para el abastecimiento de parte de la energía de Agrícola Hüne, cuyos mayores consumos eléctricos están asociados a un packing. El proyecto fue construido durante el 2016.
+Sistema solar para el abastecimiento del packing y otros consumos de la empresa agrícola.

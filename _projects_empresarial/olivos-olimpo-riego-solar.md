@@ -1,11 +1,13 @@
 ---
-layout: collection
+layout: proyecto
 title: OLIVOS OLIMPO
-permalink: /agroindustrial/olivos-olimpo-riego-solar/
+permalink: /proyectos/olivos-olimpo-riego-solar/
 img_path: /img/carmen-alto-1.jpg
-inversion_total: USD$ 470.000
+ubicacion: Valle del Limari, Ovalle, Chile
+mandante: Olivos Olimpo
+inversion_total: USD $470.000
 potencia_total: 216 kWp
-excerpt: Este proyecto fue desarrollado en el Valle del Limarí, en Ovalle, durante el 2015.Consiste en la instalación de 3 plantas de...
+excerpt: Proyecto de tres plantas solares, dos de ellas para abastecimiento de energía para riego y le tercero para la planta productora de aceite de oliva.
 ---
 
-Este proyecto fue desarrollado en el Valle del Limarí, en Ovalle, durante el 2015. Consiste en la instalación de 3 plantas de 72KW cada una, para el abastecimiento de energía para riego (tranque sur y tranque norte) y para el funcionamiento de planta productora de aceite de oliva (almazara).
+Proyecto de tres plantas solares, dos de ellas para abastecimiento de energía para riego y le tercero para la planta productora de aceite de oliva.
