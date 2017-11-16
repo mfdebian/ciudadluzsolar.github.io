@@ -6,7 +6,7 @@ img_path: /img/proyecto-sename-recoleta.jpg
 ubicacion: Recoleta, Santiago, Chile
 mandante: Sename
 inversion_total:
-potencia_total: 15.39 Kw
+potencia_total: 15 kW
 latitud: -33.412720
 longitud: -70.639136
 excerpt: ...

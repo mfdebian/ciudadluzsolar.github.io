@@ -6,7 +6,7 @@ img_path: /img/carmen-alto-1.jpg
 ubicacion: Valle del Limari, Ovalle, Chile
 mandante: Olivos Olimpo
 inversion_total: USD $470.000
-potencia_total: 216 kWp
+potencia_total: 216 kW
 excerpt: Proyecto de tres plantas solares, dos de ellas para abastecimiento de energía para riego y le tercero para la planta productora de aceite de oliva.
 ---
 

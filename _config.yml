@@ -31,12 +31,18 @@ collections:
   projects_residencial:
     output: true
     permalink: /:collection/:name
+  projects_residencial_mapa:
+    output: true
   projects_empresarial:
     output: true
     permalink: /:collection/:name
+  projects_empresarial_mapa:
+    output: true
   projects_institucional:
     output: true
     permalink: /:collection/:name
+  projects_institucional_mapa:
+    output: true
 
 # Build settings
 markdown: kramdown

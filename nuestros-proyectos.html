@@ -5,83 +5,109 @@ permalink: /nuestros-proyectos/
 excerpt: Para Ciudad Luz es importante desarrollar proyectos con diversos tipos de clientes, creando valor y soluciones según las necesidades de cada uno.
 ---
 
-      <div class="clearfix"></div>
-      <section id="content" class="proyectos-new">
-        <div class="content-wrap">
-          <div class="container clearfix">
-            <!-- Residenciales -->
-            <div class="row clearfix">
-              <div class="col-md-12">
-                <h2><strong style="background:  #ff0;">Residenciales</strong></h2>
-              </div>
-            </div>
-            <div class="row clearfix">
-              {% for item in site.projects_residencial %}
-              <div class="col-md-4">
-                <div style="width: 100%; height: 200px; overflow: hidden;">
-                  <img src="{{ item.img_path | relative_url }}" />
-                </div>
-                <h3>{{ item.title }}</h3>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
-                <p>
-                  <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
-                  <strong>Mandante:</strong> {{ item.mandante }}<br/>
-                  <strong>Potencia Total:</strong> {{ item.potencia_total }}
-                </p>
-              </div>
-              {% endfor %}
-            </div>
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div id="modalContent" class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
 
-            <div class="row clearfix" style="margin-bottom: 30px"></div>
+  </div>
+</div>
 
-            <!-- Empresariales -->
-            <div class="row clearfix">
-              <div class="col-md-12">
-                <h2><strong style="background:  #ff0;">Empresariales</strong></h2>
-              </div>
-            </div>
-            <div class="row clearfix">
-              {% for item in site.projects_empresarial %}
-              <div class="col-md-4">
-                <div style="width: 100%; height: 200px; overflow: hidden;">
-                  <img src="{{ item.img_path | relative_url }}" />
-                </div>
-                <h3>{{ item.title }}</h3>
-
-                <p>
-                  <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
-                  <strong>Mandante:</strong> {{ item.mandante }}<br/>
-                  <strong>Potencia Total:</strong> {{ item.potencia_total }}
-                </p>
-              </div>
-              {% endfor %}
-            </div>
-
-            <div class="row clearfix" style="margin-bottom: 30px"></div>
-
-            <!-- Institucionales -->
-            <div class="row clearfix">
-              <div class="col-md-12">
-                <h2><strong style="background:  #ff0;">Institucionales</strong></h2>
-              </div>
-            </div>
-            <div class="row clearfix">
-              {% for item in site.projects_institucional %}
-              <div class="col-md-4">
-                <div style="width: 100%; height: 200px; overflow: hidden;">
-                  <img src="{{ item.img_path | relative_url }}" />
-                </div>
-                <h3>{{ item.title }}</h3>
-
-                <p>
-                  <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
-                  <strong>Mandante:</strong> {{ item.mandante }}<br/>
-                  <strong>Potencia Total:</strong> {{ item.potencia_total }}
-                </p>
-              </div>
-              {% endfor %}
-            </div>
-
-          </div>
+<div class="clearfix"></div>
+<section id="content" class="proyectos-new">
+  <div class="content-wrap">
+    <div class="container clearfix">
+      <!-- Residenciales -->
+      <div class="row clearfix">
+        <div class="col-md-12">
+          <h2><strong style="background:  #ff0;">Residenciales</strong></h2>
         </div>
-      </section>
+      </div>
+      <div class="row clearfix">
+        {% for item in site.projects_residencial %}
+        <div class="col-md-4">
+          <div style="width: 100%; height: 200px; overflow: hidden;">
+            <!-- TODO: Arreglar esto, el onclick no funciona, probablemente por estar cargando js varias veces, 
+              lo que hay que hacer es un template que cargue el html del modal -->
+            <a href="#myModal" data-toggle="modal" onclick="$('#modalContent').load('/residencial/vitacura30-paneles-solares-casas-chile/');">
+              <img src="{{ item.img_path | relative_url }}" />
+            </a>
+          </div>
+          <h3>{{ item.title }}</h3>
+
+          <p>
+            <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+            <strong>Mandante:</strong> {{ item.mandante }}<br/>
+            <strong>Potencia Total:</strong> {{ item.potencia_total }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="row clearfix" style="margin-bottom: 30px"></div>
+
+      <!-- Empresariales -->
+      <div class="row clearfix">
+        <div class="col-md-12">
+          <h2><strong style="background:  #ff0;">Empresariales</strong></h2>
+        </div>
+      </div>
+      <div class="row clearfix">
+        {% for item in site.projects_empresarial %}
+        <div class="col-md-4">
+          <div style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="{{ item.img_path | relative_url }}" />
+          </div>
+          <h3>{{ item.title }}</h3>
+
+          <p>
+            <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+            <strong>Mandante:</strong> {{ item.mandante }}<br/>
+            <strong>Potencia Total:</strong> {{ item.potencia_total }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="row clearfix" style="margin-bottom: 30px"></div>
+
+      <!-- Institucionales -->
+      <div class="row clearfix">
+        <div class="col-md-12">
+          <h2><strong style="background:  #ff0;">Institucionales</strong></h2>
+        </div>
+      </div>
+      <div class="row clearfix">
+        {% for item in site.projects_institucional %}
+        <div class="col-md-4">
+          <div style="width: 100%; height: 200px; overflow: hidden;">
+            <img src="{{ item.img_path | relative_url }}" />
+          </div>
+          <h3>{{ item.title }}</h3>
+
+          <p>
+            <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+            <strong>Mandante:</strong> {{ item.mandante }}<br/>
+            <strong>Potencia Total:</strong> {{ item.potencia_total }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+</section>
+
