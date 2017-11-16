@@ -1,6 +1,6 @@
 ---
 layout: proyecto
-title: MIN. DE DESARROLLO SOCIAL
+title: MINISTERIO DE DESARROLLO SOCIAL
 permalink: /proyectos/ministerio-desarrollo-social/
 img_path: /img/foto-proyecto-mds.jpg
 ubicacion: Santiago Centro, Santiago, Chile
