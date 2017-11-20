@@ -199,7 +199,8 @@ layout: home
       <!-- Espaciador -->
       <div class="row clearfix" style="margin-bottom: 50px;"></div>
       
-      <!-- Que nos diferencia -->
+
+      <!-- MAPA -->
       <div class="row clearfix text-right">
         <h2>
           <p><strong>¿Donde Hemos Construido?</strong></p>
@@ -220,6 +221,7 @@ layout: home
         </div>
       </div>
 
+      <!-- JAVASCRIPT MAPA -->
       <script language="javascript" type="text/javascript" defer='defer'>
         window.onload = function () {
           var map = new GMaps({
@@ -229,40 +231,40 @@ layout: home
             zoom: 5
           });
 
-          {% for item in site.projects_residencial %}
+          {% for item in site.projects_residencial_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
             icon: "/img/icono-home2-noun-edit-small3.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
-              content:'<h3>{{ item.title }}</h3><p><strong>Ubicación:</strong> {{ item.ubicacion }}<br/><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
+              content:'<h3>{{ item.title }}</h3><p><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
             }
           });
           {% endif %}
           {% endfor %}
 
-          {% for item in site.projects_institucional %}
+          {% for item in site.projects_institucional_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
             icon: "/img/icono-institucional2-noun-edit-small3.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
-              content:'<h3>{{ item.title }}</h3><p><strong>Ubicación:</strong> {{ item.ubicacion }}<br/><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
+              content:'<h3>{{ item.title }}</h3><p><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
             }
           });
           {% endif %}
           {% endfor %}
 
-          {% for item in site.projects_empresarial %}
+          {% for item in site.projects_empresarial_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
             icon: "/img/icono-factory-noun-edit-small3.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
-              content:'<h3>{{ item.title }}</h3><p><strong>Ubicación:</strong> {{ item.ubicacion }}<br/><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
+              content:'<h3>{{ item.title }}</h3><p><strong>Mandante:</strong> {{ item.mandante }}<br/><strong>Potencia Total:</strong> {{ item.potencia_total }}</p>'
             }
           });
           {% endif %}
@@ -278,14 +280,18 @@ layout: home
       <!-- Quienes Han Confiado -->
       <div class="row clearfix">
         <h2>
-          <p><strong>¿Quienes Han Confiado en Nosotros?</strong></p>
+          <p><strong>Han Confiado en Nosotros:</strong></p>
         </h2>
       </div>
 
 
       <div class="row clearfix">
-        <div class="col-md-12">
-          <img src="img/han_confiado/desafio_levantemos_chile.png"/>
+        <div class="col-md-12 text-center">
+          <span style="padding: 20px"><img src="img/han_confiado/desafio_levantemos_chile.png"/></span>
+          <span style="padding: 20px"><img src="img/han_confiado/cesfam_penaflor.png"/></span>
+          <span style="padding: 20px"><img src="img/han_confiado/cerveceria_guayacan.png"/></span>
+          <span style="padding: 20px"><img src="img/han_confiado/hogar_de_cristo.png"/></span>
+          <span style="padding: 20px"><img src="img/han_confiado/ministerio_desarrollo_social.png"/></span>
         </div>
       </div>
 
