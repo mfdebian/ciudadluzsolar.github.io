@@ -2,7 +2,7 @@
 layout: proyecto
 title: SENAME PEÑAFLOR
 permalink: /proyectos/sename-penaflor/
-img_path: /img/imagen-proyecto-estandar.png
+img_path: /img/proyectos/sename-penaflor/imagen-proyecto-estandar.png
 ubicacion: Peñaflor, Talagante, Chile
 mandante: Sename
 inversion_total:

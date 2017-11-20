@@ -2,7 +2,7 @@
 layout: proyecto
 title: HÜNE
 permalink: /proyectos/packing-agricola-hune/
-img_path: /img/hune-2-pw.jpg
+img_path: /img/proyectos/packing-agricola-hune/hune-2-pw.jpg
 ubicacion: Los Ángeles, Biobío, Chile
 mandante: Agricola Hüne
 inversion_total: USD$ 40.000

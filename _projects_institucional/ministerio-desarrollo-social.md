@@ -2,7 +2,7 @@
 layout: proyecto
 title: MINISTERIO DE DESARROLLO SOCIAL
 permalink: /proyectos/ministerio-desarrollo-social/
-img_path: /img/foto-proyecto-mds.jpg
+img_path: /img/proyectos/ministerio-desarrollo-social/foto-proyecto-mds.jpg
 ubicacion: Santiago Centro, Santiago, Chile
 mandante: AES Gener
 inversion_total: USD $110.000

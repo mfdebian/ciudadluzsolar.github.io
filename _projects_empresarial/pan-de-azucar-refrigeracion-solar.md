@@ -1,8 +1,8 @@
 ---
 layout: proyecto
 title: PAN DE AZÚCAR
-permalink: /proyectos/refrigeracion-fotovoltaica/
-img_path: /img/comunidades-aisladas-2.jpg
+permalink: /proyectos/pan-de-azucar-refrigeracion-solar/
+img_path: /img/proyectos/pan-de-azucar-refrigeracion-solar/comunidades-aisladas-2.jpg
 ubicacion: Pan de Azúcar, Chañaral, Chile
 mandante: Caleta de Pescadores Pan de Azúcar
 inversion_total: USD $50.000

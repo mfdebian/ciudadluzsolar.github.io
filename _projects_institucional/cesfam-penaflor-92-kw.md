@@ -2,7 +2,7 @@
 layout: proyecto
 title: CESFAM PEÑAFLOR
 permalink: /proyectos/cesfam-penaflor-92-kw/
-img_path: /img/cesfam-penaflor-2-pw.jpg
+img_path: /img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-2-pw.jpg
 ubicacion: Peñaflor, Santiago, Chile
 mandante: Municipalidad de Peñaflor
 inversion_total: USD $131.000

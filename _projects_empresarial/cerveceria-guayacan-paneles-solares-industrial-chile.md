@@ -2,7 +2,7 @@
 layout: proyecto
 title: GUAYACAN
 permalink: /proyectos/cerveceria-guayacan-paneles-solares-industrial-chile/
-img_path: /img/cerveceria-2.jpg
+img_path: /img/proyectos/cerveceria-guayacan-paneles-solares-industrial-chile/cerveceria-2.jpg
 ubicacion: Diaguitas, Vicuña, Chile
 mandante: Cervecería Guayacán
 inversion_total: USD $43.500

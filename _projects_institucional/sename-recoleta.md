@@ -2,7 +2,7 @@
 layout: proyecto
 title: SENAME RECOLETA
 permalink: /proyectos/sename-recoleta/
-img_path: /img/proyecto-sename-recoleta.jpg
+img_path: /img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg
 ubicacion: Recoleta, Santiago, Chile
 mandante: Sename
 inversion_total:

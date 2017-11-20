@@ -2,7 +2,7 @@
 layout: proyecto
 title: CARMEN ALTO
 permalink: /proyectos/sistema-solar-carmen-alto-agricola/
-img_path: /img/carmen-alto-agricola.jpg
+img_path: /img/proyectos/carmen-alto-agricola/carmen-alto-agricola.jpg
 ubicacion: Carmen Alto, Melipilla, Chile
 mandante: Sociedad Agrícola Carmen Alto
 inversion_total: USD $158.400

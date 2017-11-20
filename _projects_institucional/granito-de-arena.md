@@ -1,8 +1,8 @@
 ---
 layout: proyecto
 title: GRANITO DE ARENA
-permalink: /educacional/paneles-solares-colegios-chile/
-img_path: /img/jardin-infantil-2.jpg
+permalink: /proyectos/jardin-infantil-granito-de-arena/
+img_path: /img/proyectos/jardin-infantil-granito-de-arena/jardin-infantil-2.jpg
 ubicacion: Arica, Chile
 mandante: Hogar de Cristo
 inversion_total: USD $4.000
