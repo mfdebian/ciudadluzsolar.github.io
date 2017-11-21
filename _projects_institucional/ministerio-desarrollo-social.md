@@ -6,8 +6,6 @@ img_path: /img/proyectos/ministerio-desarrollo-social/foto-proyecto-mds.jpg
 ubicacion: Santiago Centro, Santiago, Chile
 mandante: AES Gener
 potencia_total: 81 kW
-latitud: -33.437855
-longitud: -70.659098
 ---
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">

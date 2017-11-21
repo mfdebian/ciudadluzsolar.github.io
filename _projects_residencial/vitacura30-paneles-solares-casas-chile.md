@@ -5,9 +5,7 @@ permalink: /proyectos/vitacura-30m-paneles-solares-casas-chile/
 img_path: /img/proyectos/vitacura-30m-paneles-solares-casas-chile/techo30-cortado.jpg
 ubicacion: Vitacura, Santiago, Chile
 mandante: Municipalidad de Vitacura
-potencia_total: 60kWp
-latitud: -33.398619
-longitud: -70.601409
+potencia_total: 60 kWp (30 casas)
 ---
 
 Primero proyecto del programa de gobierno Techo 30+. Consistió en la instalación de 30 sistemas solares residenciales de 1kW a 3kW.

@@ -9,7 +9,7 @@ permalink: /novedades/
       <section id="content" class="proyectos">
         <div class="content-wrap noticias">
           <div class="container clearfix">
-            {% assign news_items = site.news | sort: 'date' | reverse %}
+            {% assign news_items = site.novedades | sort: 'date' | reverse %}
             {% for news in news_items %}
             <div class="row clearfix" style="margin-bottom: 40px">
               <div class="col-md-4">

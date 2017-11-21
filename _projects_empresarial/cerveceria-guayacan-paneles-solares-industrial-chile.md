@@ -6,8 +6,6 @@ img_path: /img/proyectos/cerveceria-guayacan-paneles-solares-industrial-chile/ce
 ubicacion: Diaguitas, Vicuña, Chile
 mandante: Cervecería Guayacán
 potencia_total: 19,75 kW
-latitud: -30.023146
-longitud: -70.637031
 ---
 
 Sistema solar on-grid que cubre el 71% de la demanda eléctrica de la cervecería.

@@ -6,8 +6,6 @@ img_path: /img/proyectos/hogar-de-cristo-casa-central/proyecto-hogar-de-cristo.j
 ubicacion: Estación Central, Santiago, Chile
 mandante: Hogar de Cristo
 potencia_total: 32 kW
-latitud: -33.461292
-longitud: -70.684836
 ---
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">

@@ -2,7 +2,7 @@
 layout: news
 title: Familia Pavón Prat se incorpora como accionista a Ciudad Luz
 permalink: /familia-pavon-prat-se-incorpora-accionista-ciudad-luz-2/
-img_path: /img/mariosonda.jpg
+img_path: /img/novedades/mariosonda.jpg
 date: 2015-11-1
 date_text: Noviembre 2015
 excerpt: La familia Pavón Prat, vinculada al presidente de SONDA, Mario Pavón Robinson, se ha incorporado recientemente a través de la...

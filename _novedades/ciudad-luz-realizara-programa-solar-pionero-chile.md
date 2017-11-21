@@ -2,7 +2,7 @@
 layout: news
 title: Ciudad Luz realizará programa solar pionero en Chile
 permalink: /ciudad-luz-realizara-programa-solar-pionero-chile/
-img_path: /img/imagen-proyecto-estandar.png
+img_path: /img/novedades/imagen-proyecto-estandar.png
 date: 2015-7-1
 date_text: Julio 2015
 excerpt: La Municipalidad de Vitacura, en el marco del desarrollo de una estrategia energética comunal, ha decidido impulsar la...

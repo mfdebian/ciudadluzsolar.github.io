@@ -25,7 +25,7 @@ lang: es
 google_analytics: UA-NNNNNNNN-N
 
 collections:
-  news:
+  novedades:
     output: true
     permalink: /:collection/:name
   projects_residencial:
