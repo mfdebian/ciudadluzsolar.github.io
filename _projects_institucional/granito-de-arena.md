@@ -1,6 +1,6 @@
 ---
 layout: proyecto
-title: GRANITO DE ARENA
+title: JARDÍN GRANITO DE ARENA
 permalink: /proyectos/jardin-infantil-granito-de-arena/
 img_path: /img/proyectos/jardin-infantil-granito-de-arena/jardin-infantil-2.jpg
 ubicacion: Arica, Chile

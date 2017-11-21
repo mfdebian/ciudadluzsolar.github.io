@@ -1,11 +1,11 @@
 ---
 layout: proyecto
-title: HOGAR SAN PEDRO DE ARMENGOL
-permalink: /proyectos/sename-recoleta/
-img_path: /img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg
-ubicacion: Recoleta, Santiago, Chile
-mandante: Sename
-potencia_total: 15 kW
+title: PUELMAPU OPTE
+permalink: /proyectos/puelmapu-opte/
+img_path: /img/proyectos/puelmapu-opte/imagen-proyecto-estandar.png
+ubicacion: Peñalolen, Santiago, Chile
+mandante: Colegio Puelmapu Opte
+potencia_total: 3 kW
 ---
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -19,15 +19,15 @@ potencia_total: 15 kW
   <!-- Imagenes de Los Proyectos -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="/img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg">
+      <img src="/img/proyectos/puelmapu-opte/imagen-proyecto-estandar.png">
     </div>
 
     <div class="item">
-      <img src="/img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg">
+      <img src="/img/proyectos/puelmapu-opte/imagen-proyecto-estandar.png">
     </div>
 
     <div class="item">
-      <img src="/img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg">
+      <img src="/img/proyectos/puelmapu-opte/imagen-proyecto-estandar.png">
     </div>
   </div>
 

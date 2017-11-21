@@ -1,6 +1,6 @@
 ---
 layout: proyecto
-title: HÜNE
+title: AGRÍCOLA HÜNE
 permalink: /proyectos/packing-agricola-hune/
 img_path: /img/proyectos/packing-agricola-hune/hune-2-pw.jpg
 ubicacion: Los Ángeles, Biobío, Chile

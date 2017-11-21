@@ -1,5 +1,5 @@
 ---
-title: GRANITO DE ARENA
+title: JARDÍN GRANITO DE ARENA
 ubicacion: Arica, Chile
 mandante: Hogar de Cristo
 potencia_total: 1,55 kW

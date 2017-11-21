@@ -1,5 +1,5 @@
 ---
-title: SENAME RECOLETA
+title: HOGAR SAN PEDRO DE ARMENGOL
 ubicacion: Recoleta, Santiago, Chile
 mandante: Sename
 potencia_total: 15.39 Kw

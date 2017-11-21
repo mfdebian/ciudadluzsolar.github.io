@@ -44,37 +44,10 @@ excerpt: Para Ciudad Luz es importante desarrollar proyectos con diversos tipos 
 <section id="content" class="proyectos-new">
   <div class="content-wrap">
     <div class="container clearfix">
-      <!-- Residenciales -->
-      <div class="row clearfix">
-        <div class="col-md-12">
-          <h2><strong style="background:  #ff0;">Residenciales</strong></h2>
-        </div>
-      </div>
-      <div class="row clearfix">
-        {% for item in site.projects_residencial %}
-        <div class="col-md-4">
-          <div style="width: 100%; height: 200px; overflow: hidden;">
-            <a href="#" onclick="showAjaxModal('{{item.title}}', '{{item.permalink}}')">
-              <img src="{{ item.img_path | relative_url }}" />
-            </a>
-          </div>
-          <h3>{{ item.title }}</h3>
-
-          <p>
-            <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
-            <strong>Mandante:</strong> {{ item.mandante }}<br/>
-            <strong>Potencia Total:</strong> {{ item.potencia_total }}
-          </p>
-        </div>
-        {% endfor %}
-      </div>
-
-      <div class="row clearfix" style="margin-bottom: 30px"></div>
-
       <!-- Empresariales -->
       <div class="row clearfix">
         <div class="col-md-12">
-          <h2><strong style="background:  #ff0;">Empresariales</strong></h2>
+          <h2><strong style="background: #ff0;">Empresariales</strong></h2>
         </div>
       </div>
       <div class="row clearfix">
@@ -106,6 +79,33 @@ excerpt: Para Ciudad Luz es importante desarrollar proyectos con diversos tipos 
       </div>
       <div class="row clearfix">
         {% for item in site.projects_institucional %}
+        <div class="col-md-4">
+          <div style="width: 100%; height: 200px; overflow: hidden;">
+            <a href="#" onclick="showAjaxModal('{{item.title}}', '{{item.permalink}}')">
+              <img src="{{ item.img_path | relative_url }}" />
+            </a>
+          </div>
+          <h3>{{ item.title }}</h3>
+
+          <p>
+            <strong>Ubicación:</strong> {{ item.ubicacion }}<br/>
+            <strong>Mandante:</strong> {{ item.mandante }}<br/>
+            <strong>Potencia Total:</strong> {{ item.potencia_total }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="row clearfix" style="margin-bottom: 30px;"></div>
+
+      <!-- Residenciales -->
+      <div class="row clearfix">
+        <div class="col-md-12">
+          <h2><strong style="background: #ff0;">Residenciales</strong></h2>
+        </div>
+      </div>
+      <div class="row clearfix">
+        {% for item in site.projects_residencial %}
         <div class="col-md-4">
           <div style="width: 100%; height: 200px; overflow: hidden;">
             <a href="#" onclick="showAjaxModal('{{item.title}}', '{{item.permalink}}')">

@@ -1,5 +1,5 @@
 ---
-title: SENAME PEÑAFLOR
+title: ALDEA MIS AMIGOS
 ubicacion: Peñaflor, Talagante, Chile
 mandante: Sename
 potencia_total: 5 kW

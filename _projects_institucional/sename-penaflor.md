@@ -1,6 +1,6 @@
 ---
 layout: proyecto
-title: SENAME PEÑAFLOR
+title: ALDEA MIS AMIGOS
 permalink: /proyectos/sename-penaflor/
 img_path: /img/proyectos/sename-penaflor/imagen-proyecto-estandar.png
 ubicacion: Peñaflor, Talagante, Chile

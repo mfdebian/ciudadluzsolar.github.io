@@ -1,6 +1,6 @@
 ---
 layout: proyecto
-title: GUAYACAN
+title: CERVECERA GUAYACAN
 permalink: /proyectos/cerveceria-guayacan-paneles-solares-industrial-chile/
 img_path: /img/proyectos/cerveceria-guayacan-paneles-solares-industrial-chile/cerveceria-2.jpg
 ubicacion: Diaguitas, Vicuña, Chile
