@@ -188,7 +188,7 @@ layout: home
       <!-- Con quienes trabajamos: empresas -->
       <div class="row clearfix">
         <div class="col-md-offset-1 col-md-2 text-center">
-          <img src="/img/icono-factory-noun-edit-large3.png" style="width: 80%">
+          <img src="/img/icono-edificio-noun-edit-large3.png">
         </div>
         <div class="col-md-9">
             <h3 style="margin-bottom: 0px"><strong>Empresas</strong></h3>
@@ -202,7 +202,7 @@ layout: home
       <!-- Con quienes trabajamos: instituciones -->
       <div class="row clearfix">
         <div class="col-md-offset-1 col-md-2 text-center">
-          <img src="/img/icono-institucional2-noun-edit-large3.png">
+          <img src="/img/icono-colegio-noun-edit-large3.png">
         </div>
         <div class="col-md-9">
             <h3 style="margin-bottom: 0px"><strong>Instituciones</strong></h3>
@@ -264,7 +264,7 @@ layout: home
           {% for item in site.projects_institucional_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
-            icon: "/img/icono-institucional2-noun-edit-small3.png",
+            icon: "/img/icono-colegio-noun-edit-small3.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
@@ -277,7 +277,7 @@ layout: home
           {% for item in site.projects_empresarial_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
-            icon: "/img/icono-factory-noun-edit-small3.png",
+            icon: "/img/icono-edificio-noun-edit-small3.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
