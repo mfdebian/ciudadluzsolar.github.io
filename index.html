@@ -174,7 +174,7 @@ layout: home
       <!-- Con quienes trabajamos: hogares -->
       <div class="row clearfix">
         <div class="col-md-offset-1 col-md-2 text-center">
-          <img src="/img/icono-home2-noun-edit-large3.png">
+          <img src="/img/icono-home-noun-edit-large.png">
         </div>
         <div class="col-md-9">
             <h3 style="margin-bottom: 0px"><strong>Hogares</strong></h3>
@@ -188,7 +188,7 @@ layout: home
       <!-- Con quienes trabajamos: empresas -->
       <div class="row clearfix">
         <div class="col-md-offset-1 col-md-2 text-center">
-          <img src="/img/icono-edificio-noun-edit-large3.png">
+          <img src="/img/icono-grua-noun-edit-large.png">
         </div>
         <div class="col-md-9">
             <h3 style="margin-bottom: 0px"><strong>Empresas</strong></h3>
@@ -202,7 +202,7 @@ layout: home
       <!-- Con quienes trabajamos: instituciones -->
       <div class="row clearfix">
         <div class="col-md-offset-1 col-md-2 text-center">
-          <img src="/img/icono-colegio-noun-edit-large3.png">
+          <img src="/img/icono-partenon-noun-edit-large.png">
         </div>
         <div class="col-md-9">
             <h3 style="margin-bottom: 0px"><strong>Instituciones</strong></h3>
@@ -251,7 +251,7 @@ layout: home
           {% for item in site.projects_residencial_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
-            icon: "/img/icono-home2-noun-edit-small3.png",
+            icon: "/img/icono-home-noun-edit-small.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
@@ -264,7 +264,7 @@ layout: home
           {% for item in site.projects_institucional_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
-            icon: "/img/icono-colegio-noun-edit-small3.png",
+            icon: "/img/icono-partenon-noun-edit-small.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
@@ -277,7 +277,7 @@ layout: home
           {% for item in site.projects_empresarial_mapa %}
           {% if item.latitud != null %}
           map.addMarker({
-            icon: "/img/icono-edificio-noun-edit-small3.png",
+            icon: "/img/icono-grua-noun-edit-small.png",
             lat: {{item.latitud}},
             lng: {{item.longitud}},
             infoWindow: {
