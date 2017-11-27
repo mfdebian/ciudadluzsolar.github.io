@@ -29997,3 +29997,13 @@ screen and (max-height:300px) {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0
 }
+
+
+@media(min-width:768px) {
+  .text-md-left {
+    text-align: left;
+  }
+  .text-md-right {
+    text-align: right;
+  }
+}
