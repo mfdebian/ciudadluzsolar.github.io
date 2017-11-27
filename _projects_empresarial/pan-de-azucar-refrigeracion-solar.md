@@ -2,15 +2,11 @@
 layout: proyecto
 title: PAN DE AZÚCAR
 permalink: /proyectos/pan-de-azucar-refrigeracion-solar/
-img_path: /img/proyectos/pan-de-azucar-refrigeracion-solar/comunidades-aisladas-2.jpg
+img_path: /img/proyectos/pan-de-azucar-refrigeracion-solar/pandeazucar-1.jpg
 ubicacion: Pan de Azúcar, Chañaral, Chile
 mandante: Caleta de Pescadores Pan de Azúcar
 potencia_total: 3 kW
 ---
-
-Proyecto off-grid de refrigeración fotovoltáica desarrollado para la caleta de pescadores. Premiado como el mejor proyecto de ERNC Comunitario del 2015.
-
-
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -23,15 +19,15 @@ Proyecto off-grid de refrigeración fotovoltáica desarrollado para la caleta de
   <!-- Imagenes de Los Proyectos -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="/img/proyectos/pan-de-azucar-refrigeracion-solar/comunidades-aisladas-2.jpg">
+      <img src="/img/proyectos/pan-de-azucar-refrigeracion-solar/pandeazucar-1.jpg">
     </div>
 
     <div class="item">
-      <img src="/img/proyectos/pan-de-azucar-refrigeracion-solar/comunidades-aisladas-2.jpg">
+      <img src="/img/proyectos/pan-de-azucar-refrigeracion-solar/pandeazucar-2.jpg">
     </div>
 
     <div class="item">
-      <img src="/img/proyectos/pan-de-azucar-refrigeracion-solar/comunidades-aisladas-2.jpg">
+      <img src="/img/proyectos/pan-de-azucar-refrigeracion-solar/pandeazucar-3.jpg">
     </div>
   </div>
 
@@ -45,3 +41,5 @@ Proyecto off-grid de refrigeración fotovoltáica desarrollado para la caleta de
     <span class="sr-only">Siguiente</span>
   </a>
 </div>
+
+Proyecto off-grid de refrigeración fotovoltáica desarrollado para la caleta de pescadores. Premiado como el mejor proyecto de ERNC Comunitario del 2015.

@@ -2,7 +2,7 @@
 layout: proyecto
 title: HOGAR DE CRISTO CASA CENTRAL
 permalink: /proyectos/hogar-de-cristo-casa-central/
-img_path: /img/proyectos/hogar-de-cristo-casa-central/proyecto-hogar-de-cristo.jpg
+img_path: /img/proyectos/hogar-de-cristo-casa-central/hdc-1.png
 ubicacion: Estación Central, Santiago, Chile
 mandante: Hogar de Cristo
 potencia_total: 32 kW
@@ -13,21 +13,16 @@ potencia_total: 32 kW
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
   <!-- Imagenes de Los Proyectos -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="/img/proyectos/hogar-de-cristo-casa-central/proyecto-hogar-de-cristo.jpg">
+      <img src="/img/proyectos/hogar-de-cristo-casa-central/hdc-1.png">
     </div>
 
     <div class="item">
-      <img src="/img/proyectos/hogar-de-cristo-casa-central/proyecto-hogar-de-cristo.jpg">
-    </div>
-
-    <div class="item">
-      <img src="/img/proyectos/hogar-de-cristo-casa-central/proyecto-hogar-de-cristo.jpg">
+      <img src="/img/proyectos/hogar-de-cristo-casa-central/hdc-2.jpg">
     </div>
   </div>
 

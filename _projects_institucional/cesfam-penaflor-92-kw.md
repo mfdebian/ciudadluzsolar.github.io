@@ -2,15 +2,11 @@
 layout: proyecto
 title: CESFAM PEÑAFLOR
 permalink: /proyectos/cesfam-penaflor-92-kw/
-img_path: /img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-2-pw.jpg
+img_path: /img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-1.jpg
 ubicacion: Peñaflor, Santiago, Chile
 mandante: Municipalidad de Peñaflor
 potencia_total: 92 kW
 ---
-
-Sistema solar diseñado para reducir las cuentas de consumo elécrico entre un 50% y un 60%.
-
-
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -23,15 +19,15 @@ Sistema solar diseñado para reducir las cuentas de consumo elécrico entre un 5
   <!-- Imagenes de Los Proyectos -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="/img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-2-pw.jpg">
+      <img src="/img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-1.jpg">
     </div>
 
-    <div class="item active">
-      <img src="/img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-2-pw.jpg">
+    <div class="item">
+      <img src="/img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-2.jpg">
     </div>
 
-    <div class="item active">
-      <img src="/img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-2-pw.jpg">
+    <div class="item">
+      <img src="/img/proyectos/cesfam-penaflor-92-kw/cesfam-penaflor-3.jpg">
     </div>
   </div>
 
@@ -45,3 +41,5 @@ Sistema solar diseñado para reducir las cuentas de consumo elécrico entre un 5
     <span class="sr-only">Siguiente</span>
   </a>
 </div>
+
+Sistema solar diseñado para reducir las cuentas de consumo elécrico entre un 50% y un 60%.

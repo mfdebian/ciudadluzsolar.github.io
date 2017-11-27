@@ -2,7 +2,7 @@
 layout: proyecto
 title: HOGAR SAN PEDRO DE ARMENGOL
 permalink: /proyectos/sename-recoleta/
-img_path: /img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg
+img_path: /img/proyectos/sename-recoleta/sename-recoleta-1.jpg
 ubicacion: Recoleta, Santiago, Chile
 mandante: Sename
 potencia_total: 15 kW
@@ -12,22 +12,12 @@ potencia_total: 15 kW
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
   <!-- Imagenes de Los Proyectos -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="/img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg">
-    </div>
-
-    <div class="item">
-      <img src="/img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg">
-    </div>
-
-    <div class="item">
-      <img src="/img/proyectos/sename-recoleta/proyecto-sename-recoleta.jpg">
+      <img src="/img/proyectos/sename-recoleta/sename-recoleta-1.jpg">
     </div>
   </div>
 
