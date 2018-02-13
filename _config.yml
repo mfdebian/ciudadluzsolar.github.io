@@ -16,10 +16,8 @@
 title: Ciudad Luz - Energía Solar Distribuida Para Chile y Sudamérica
 email: contacto@ciudadluz.cl
 description: Toma el control de tu energía con Ciudad Luz y sus servicios de energía solar para hogares, empresas y servicios públicos. LIVE. 00:00. 01:12. Like.
-baseurl: "/ciudadluzsolar.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/ciudadluzsolar.github.io" # the subpath of your site, e.g. /blog
 url: "https://teespy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 lang: es
 
 google_analytics: UA-NNNNNNNN-N
